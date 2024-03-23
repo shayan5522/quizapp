@@ -63,8 +63,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   Navigator.pop(context);
                 },
                 child: Text('OK'),
-              ),
-            ],
+              ),],
           ),
         );
       }
@@ -96,7 +95,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   color: Colors.lightBlueAccent,
                   child: Center(
                     child: Text(
-                      quizCompleted ? 'Quiz Completed' : questions[questionNo].question ?? '',
+                      quizCompleted ? 'Quiz Completed' : questions[questionNo].question ?? ,
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 25, color: Colors.black),
                     ),

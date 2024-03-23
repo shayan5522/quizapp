@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "236841636674",
+    "project_id": "dummy-2ddab",
+    "storage_bucket": "dummy-2ddab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236841636674:android:51073917f3e984182eeedb",
+        "android_client_info": {
+          "package_name": "com.example.chatapp_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDavPLZfdqid9Ds2QC18GVX7FCIH_Ph16M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236841636674:android:6e63b42955fcb3d62eeedb",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDavPLZfdqid9Ds2QC18GVX7FCIH_Ph16M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

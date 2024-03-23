@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizapp/Screens/drawer.dart';
-import 'package:quizapp/Screens/homeScreen.dart';
 import '../Database/DatabaseHelper.dart';
-import '../Database/question_model.dart';
 
 class QuizScreen extends StatefulWidget {
   QuizScreen({super.key});
@@ -45,7 +43,6 @@ class _QuizScreenState extends State<QuizScreen> {
     } else {
       iconsRow.add(Icon(Icons.close, color: Colors.red));
     }
-
     setState(() {
       if (questionNo < questions.length - 1) {
         questionNo++;

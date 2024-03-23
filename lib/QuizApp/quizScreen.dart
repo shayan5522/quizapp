@@ -70,7 +70,6 @@ class _QuizScreenState extends State<QuizScreen> {
       }
     });
   }
-
   void restartQuiz() {
     setState(() {
       quizCompleted = false; // Reset quiz completion status
